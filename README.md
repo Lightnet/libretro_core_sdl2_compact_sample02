@@ -15,3 +15,19 @@
 
 # Tested Window:
  Current need font folder on retroarch.exe current dir folder to work.
+
+```
+...\RetroArch-Win64\ports\my_libretro_core
+...\RetroArch-Win64\ports\my_libretro_core\font
+...\RetroArch-Win64\ports\my_libretro_core\my_libretro_core.dll
+```
+
+```
+@echo off
+set RETROARCH_DIR=...\RetroArch-Win64
+set CORE_DIR=%RETROARCH_DIR%\ports\my_libretro_core
+cd %RETROARCH_DIR%
+retroarch.exe --libretro "%CORE_DIR%\my_libretro_core.dll"
+```
+
+This is reference. 
