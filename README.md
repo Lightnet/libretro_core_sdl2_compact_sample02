@@ -17,6 +17,11 @@
  Current need font folder on retroarch.exe current dir folder to work.
 
 ```
+...\RetroArch-Win64\font\Kenney Mini.ttf
+```
+this is need to load font from my_libretro_core.dll.
+
+```
 ...\RetroArch-Win64\ports\my_libretro_core
 ...\RetroArch-Win64\ports\my_libretro_core\font
 ...\RetroArch-Win64\ports\my_libretro_core\my_libretro_core.dll
